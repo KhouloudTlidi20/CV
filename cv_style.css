@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    background: lightblue ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+} 
+.container .left_Side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.ProfileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.ProfileText.imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.myimage
+{
+   width:246px;
+}
+.left_Side ul
+{
+    color: white;
+}
+h5
+{
+    color: #fff;
+}
+.school
+{
+    color: #2a7da2;
+}
+.year
+{
+    color: #03a9f4;
+}
+h5 img
+{
+    width: 30px;
+    height: 30px;
+    vertical-align:bottom"
+}
+.LangA
+{
+    width: 100%;
+}
+.LangE
+{
+    width: 90%;
+}
+.LangF
+{
+    width: 90%;
+}
+.LangC
+{
+    width: 30%;
+}
+span img
+{
+    width: 30px;
+    height: 30px;
+    vertical-align:bottom"  
+}
+table
+{
+    text-align: center"
+}
+.Me
+{
+   padding-top: 20px; 
+}
+.title
+{
+    color: #b6deef;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Me a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.Me .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+
+.education li
+{
+    margin-bottom: 15px;
+}
+
+.Languages .text{
+    color: #fff;
+}
+.Languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+}
+.Languages .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.container .right_Side
+{
+    position: relative;
+    background: #d5e5ec;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.titles
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.title4
+{
+    color: #2a7da2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p {
+   color: #333; 
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.year
+{
+    min-width: 150px;    
+}
+.year h5
+{
+    text-transform: uppercase;
+    color: #081921;
+    font-weight: 600;
+}
+
+.skills.box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content:center; 
+    align-items:center;
+}
+ h4
+{
+text-transform: uppercase;
+color: #2a7da2;
+font-weight: 500;
+
+}
+.pgrlg
+{
+    color: #2a7da2;
+}
+.percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color:#b1aeae;
+}
+.percent div
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: #03a9f4; 
+}
+
+.fa
+{
+    color: #03a9f4;
+    font-size: 18px;
+}
+.fa-html5
+{
+    color: orange;
+}
+.fa-flag
+{
+    color: red;
+}
+@media (max-width:1000px)
+{
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.cert
+{
+    width:42px;
+    height:30px;
+    vertical-align:bottom;
+    
+}
+.certcolor
+{
+    color: black;
+}
